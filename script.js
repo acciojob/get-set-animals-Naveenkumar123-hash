@@ -28,7 +28,7 @@ const animal = new Animal("Tiger");
 console.log(animal.species);  // Output: Tiger
 animal.makeSound();  // Output: The animal makes a sound.
 
-const myCat = new Cat(species);
+const myCat = new Cat("species");
 console.log(cat.species);  // Output: Persian
 myCat.makeSound();  // Output: The animal makes a sound.
 myCat.purr();  // Output: purr
