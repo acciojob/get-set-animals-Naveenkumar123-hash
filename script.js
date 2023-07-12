@@ -8,7 +8,7 @@ class Animal {
   }
 
   makeSound() {
-    console.log("The animal makes a sound.");
+    console.log("The Siamese makes a sound");
   }
 }
 
@@ -28,15 +28,15 @@ const animal = new Animal("Tiger");
 console.log(animal.species);  // Output: Tiger
 animal.makeSound();  // Output: The animal makes a sound.
 
-const cat = new Cat("Persian");
+const cat = new Cat(species);
 console.log(cat.species);  // Output: Persian
 cat.makeSound();  // Output: The animal makes a sound.
 cat.purr();  // Output: purr
 
-const dog = new Dog("Golden Retriever");
-console.log(dog.species);  // Output: Golden Retriever
-dog.makeSound();  // Output: The animal makes a sound.
-dog.bark();  // Output: woof
+const mydog = new Dog("Golden Retriever");
+console.log(mydog.species);  // Output: Golden Retriever
+mydog.makeSound();  // Output: The animal makes a sound.
+mydog.bark();  // Output: woof
 
 
 // Do not change the code below this line
