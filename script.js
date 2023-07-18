@@ -8,7 +8,7 @@ class Animal {
   }
 
   makeSound() {
-    console.log(`The ${species} makes a sound`);
+    console.log(`The ${_species} makes a sound`);
   }
 }
 
@@ -30,7 +30,7 @@ animal.makeSound();
 
 
 const species="Siamese";
-const myCat = new Cat("Siamese");
+const myCat = new Cat(species);
 console.log(myCat.species);
 myCat.makeSound();  
 myCat.purr();  
