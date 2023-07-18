@@ -28,6 +28,8 @@ const animal = new Animal("Tiger");
 console.log(animal.species);  
 animal.makeSound();  
 
+
+const species="Siamese";
 const myCat = new Cat("Siamese");
 console.log(myCat.species);
 myCat.makeSound();  
