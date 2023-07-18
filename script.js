@@ -31,7 +31,7 @@ animal.makeSound();
 const species="Siamese"
 const myCat = new Cat(species);
 console.log(myCat.species);
-myCat.makeSound(species);  
+myCat.makeSound();  
 myCat.purr();  
 
 const mydog = new Dog("Golden Retriever");
