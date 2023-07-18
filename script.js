@@ -14,7 +14,7 @@ class Animal {
 
 class Cat extends Animal {
   purr() {
-    console.log("purr");
+    console.log(`purr`);
   }
 }
 
@@ -30,7 +30,8 @@ animal.makeSound();
 
 const species="Siamese"
 const myCat = new Cat(species);
-myCat.makeSound();  
+console.log(myCat.species);
+myCat.makeSound(species);  
 myCat.purr();  
 
 const mydog = new Dog("Golden Retriever");
