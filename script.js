@@ -20,7 +20,9 @@ class Cat extends Animal {
     console.log("purr");
   }
 }
-
+{
+  "chromeWebSecurity": false
+}
 class Dog extends Animal {
   bark() {
     console.log("woof");
